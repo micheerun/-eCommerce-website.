@@ -139,7 +139,7 @@ def pay():
             connection.login(user=my_email, password=password_email)
             connection.sendmail(
                 from_addr=my_email,
-                to_addrs="micahsmith700@yahoo.com",
+                to_addrs="email_2",
                 msg=f"Subject: Product on the way\n\nThank you for sopping with us"
             )
         return render_template('done.html')
