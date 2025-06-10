@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>pay</title>
+</head>
+
+<body>
+<div class="container my-5">
+  <form method="POST" action="{{ url_for('login') }}">
+     <div class="position-relative p-5 text-center text-muted bg-body border border-dashed rounded-5">
+        <h1 class="text-body-emphasis">All done!</h1>
+        <p class="col-lg-6 mx-auto mb-4">Thank you sooo much for shopping with us. I hope you come back soon.</p>
+        <button class="btn btn-primary px-5 mb-5" type="button">login</button>
+    </div>
+  </form>
+
+</div>
+</body>
+{% include "footer.html" %}
+</html>
